@@ -1,0 +1,154 @@
+body {
+  font-family: "Roboto";
+}
+/* head */
+.head {
+  box-shadow: 1px 1px 10px rgba(192, 192, 192, 0.5);
+}
+.head-box {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.head-site1 {
+  padding-right: 5px;
+  font-weight: 400;
+  font-size: 26px;
+}
+.head-site2 {
+  font-weight: 400;
+  font-size: 26px;
+
+  color: #57ad56;
+}
+.head-box2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.button-enter {
+  padding: 8px;
+
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+
+  border: 2px solid #e0e0e0;
+  border-radius: 3px;
+}
+.head-site3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-weight: 449;
+  font-size: 25px;
+}
+
+/* images */
+.body-box {
+  margin-bottom: 10px;
+}
+.img-box {
+  margin-bottom: 40px;
+}
+.img1 {
+  height: 345px;
+  width: 100%;
+}
+.head-img1 {
+  padding-bottom: 7px;
+
+  font-size: 22px;
+  font-weight: 430;
+}
+.head-img2 {
+  padding-bottom: 7px;
+
+  font-size: 20px;
+  font-weight: 430;
+  color: #626262;
+}
+.head-img3 {
+  font-size: 20px;
+  font-weight: 430;
+}
+
+/* footer */
+.footer-box {
+  width: 100%;
+  background-color: #262626;
+}
+.footer-head-box {
+  display: flex;
+  align-items: center;
+
+  height: 120px;
+
+  border-bottom: 1px solid;
+  border-color: rgba(238, 234, 234, 0.6);
+}
+.footer-head {
+  padding-right: 10px;
+
+  font-size: 35px;
+  color: rgba(242, 242, 242, 0.9);
+}
+.footer-head2 {
+  font-size: 35px;
+  color: #57ad56;
+}
+.information-footer-box {
+  margin: auto;
+
+  max-width: 1200px;
+
+  border-bottom: 1px solid;
+  border-color: rgba(238, 234, 234, 0.6);
+}
+.information {
+  margin-top: 20px;
+
+  color: rgba(242, 242, 242, 0.8);
+}
+.information-last {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  color: rgba(242, 242, 242, 0.8);
+}
+.download-footer-box {
+  margin: auto;
+
+  max-width: 1200px;
+
+  border-bottom: 1px solid;
+  border-color: rgba(238, 234, 234, 0.6);
+}
+.app-store {
+  display: flex;
+  justify-content: center;
+}
+.app-store-img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  height: 50px;
+  width: 150px;
+}
+.play-market {
+  display: flex;
+  justify-content: center;
+}
+.play-market-img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  height: 50px;
+  width: 150px;
+}
+.end {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: rgba(242, 242, 242, 0.8);
+}

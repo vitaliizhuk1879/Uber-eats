@@ -1,0 +1,346 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+.main-conteiner {
+  margin-right: 6em;
+  margin-left: 6em;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* head */
+.head-box {
+  position: fixed;
+
+  width: 100%;
+
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: white;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+
+  margin-left: 5.85em;
+}
+.word-logo {
+  margin-right: 0.2em;
+
+  font-style: roboto;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.word-logo2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: green;
+}
+.nav-box {
+  border: 2px solid;
+  padding: 10px;
+  border-color: rgb(238, 234, 234);
+  border-radius: 3px;
+  margin-right: 6.3em;
+
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* main-image */
+.main-image-box {
+  padding-top: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 350px;
+
+  background-image: url("main-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-box {
+  display: flex;
+
+  width: 82.7%;
+  height: 204px;
+}
+.image-box2 {
+  width: 30%;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.name-of-food {
+  font-weight: 500;
+}
+.price-box {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.price {
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+}
+.time {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+
+  border: black solid;
+  border-radius: 30px;
+  border-width: 10px;
+  background: black;
+}
+
+/* types-of-food */
+.types-of-food-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 90px;
+
+  border-bottom: rgb(238, 234, 234) 2px solid;
+}
+.types-of-food-box2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 82.7%;
+}
+.types-of-food-box3 {
+  display: flex;
+  justify-content: space-between;
+
+  width: 60%;
+}
+.types-of-food {
+  color: grey;
+  font-size: 19px;
+}
+
+/* food-head */
+.conteiner {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+.conteiner2 {
+  display: flex;
+  align-items: center;
+
+  width: 82.7%;
+  height: 100px;
+}
+.head {
+  font-weight: 400;
+}
+
+/* food */
+.f-box {
+  display: flex;
+  justify-content: center;
+
+  height: 700px;
+  width: 100%;
+}
+.f-box2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 82.7%;
+}
+.f-box3 {
+  display: flex;
+
+  width: 49%;
+}
+.f-box4 {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 198px;
+
+  border-top: rgba(12, 12, 12, 0.14) 1px solid;
+  border-left: rgba(12, 12, 12, 0.14) 1px solid;
+  border-bottom: rgba(12, 12, 12, 0.14) 1px solid;
+  border-radius: 4px;
+}
+.f1 {
+  font-size: 19px;
+  font-weight: 400;
+
+  margin-bottom: 110px;
+  margin-right: 15px;
+}
+.f2 {
+  font-weight: 450;
+}
+.image-of-food {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 4px;
+}
+
+/* footer */
+.footer-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+
+  background-color: #262626;
+}
+.head-footer-box {
+  display: flex;
+  margin-top: 50px;
+  width: 82.7%;
+  height: 90px;
+  align-items: flex-start;
+
+  border-bottom: 1px solid;
+  border-color: rgba(238, 234, 234, 0.6);
+}
+.logo-footer {
+  margin-right: 0.2em;
+
+  font-style: roboto;
+  font-size: 35px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+.logo-footer2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 0;
+  color: green;
+}
+
+.footer-box2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  background-color: #262626;
+}
+.footer-box3 {
+  display: flex;
+  width: 82.7%;
+  height: 230px;
+
+  border-bottom: 1px solid;
+  border-color: rgba(238, 234, 234, 0.6);
+  justify-content: space-between;
+}
+.information-footer-box {
+  margin-top: 50px;
+  width: 30%;
+}
+.information-footer-box2 {
+  width: 20%;
+}
+.paragraph-footer {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.download-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  background-color: #262626;
+}
+.download-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 82.7%;
+
+  border-bottom: 1px solid;
+  border-color: rgba(238, 234, 234, 0.6);
+}
+.appstore {
+  height: 50px;
+  width: 170px;
+
+  margin-right: 20px;
+}
+.playmarket {
+  height: 50px;
+  width: 170px;
+}
+
+.end-box {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 100px;
+
+  background-color: #262626;
+}
+.end-box2 {
+  display: flex;
+  width: 82.7%;
+  justify-content: space-between;
+  align-items: center;
+}
+.end {
+  display: flex;
+}
+.end-paragraph {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
